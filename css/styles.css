@@ -1,0 +1,12 @@
+body {
+    background: lightblue;
+}
+h1 {
+    color: greenyellow;
+    text-align: center;
+}
+p {
+    font-style: italic;
+    color: purple;
+    text-align: center;
+}
