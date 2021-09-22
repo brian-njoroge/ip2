@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+  <title>Njoroge</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class=" text-center" id ="header">
+      <h1>Brian's name generator.</h1>
+      <p>Brian's name generator assigns akan names to all individuals based off of day of birth and gender.</p>
+    </div>
+
+      <form id="form" method="POST">
+        <fieldset>
+          <legend>Enter your birthday below: </legend>
+          Date:<input type="number" id="date">
+
+          Month:<input type="number" id="month">
+
+          Year:<input type="number" id="year">
+
+          <select id="gender">
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+          </select>
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit" id="submitButton" class="btn btn-primary" onclick="generateName(); return false"/>
+        <h2 class ="text-center" id="result">Day of birth and assigned akan name: </h2>
+      </form>
+
+ </div>
+</body>
+<script src="JS/scripts.js"></script>
+
+</html>
